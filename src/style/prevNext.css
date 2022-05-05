@@ -1,0 +1,20 @@
+/* it css is for next and previous button */
+.pagination__button {
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: .1s ease-in;
+    outline: none;
+}
+
+.pagination__button:not(:first-child) {
+    margin-left: 10px;
+}
+/* changing the color of  button on mouse hover */
+.pagination__button:hover {
+    background: rgb(240, 199, 146);
+    color: white;
+}
+
+
